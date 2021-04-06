@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GifApp/> Should be show <GifApp/> properly 1`] = `
+<Fragment>
+  <div
+    className="title-container"
+  >
+    <h2
+      className="app-title"
+    >
+      ☀️ GIPHY API
+    </h2>
+    <p
+      className="attribution"
+    >
+      Powered by 
+      <a
+        className="att-link"
+        href="https://giphy.com/"
+      >
+         Giphy
+      </a>
+    </p>
+  </div>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol />
+</Fragment>
+`;
+
+exports[`Testing <GifApp/> Should be show a category list 1`] = `
+<Fragment>
+  <div
+    className="title-container"
+  >
+    <h2
+      className="app-title"
+    >
+      ☀️ GIPHY API
+    </h2>
+    <p
+      className="attribution"
+    >
+      Powered by 
+      <a
+        className="att-link"
+        href="https://giphy.com/"
+      >
+         Giphy
+      </a>
+    </p>
+  </div>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="One Piece"
+      key="One Piece"
+    />
+    <GifGrid
+      category="Harry Potter"
+      key="Harry Potter"
+    />
+  </ol>
+</Fragment>
+`;
